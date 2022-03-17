@@ -132,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
 
                     Float inputResult = Float.parseFloat(input1.getText().toString());
 
-                    Float result1 = inputResult * 100;
+                    Float result1 = inputResult * 1000;
                     resultText1.setText(String.format("%.2f", result1));
 
                     Float result2 = inputResult * (float) 35.274;
